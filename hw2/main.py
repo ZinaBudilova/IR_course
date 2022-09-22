@@ -15,7 +15,6 @@ def parse_args():
 def main():
     queries, corpus_dir = parse_args()
 
-    print("Обработка корпуса текстов...")
     matrix, vectorizer = make_index(corpus_dir)
 
     for query in queries:
