@@ -6,7 +6,7 @@ import torch
 
 def make_corpus(filename):
     with open(filename, 'r', encoding='utf-8') as f:
-        data = list(f)[:50000]
+        data = list(f)[:10000]
 
     corpus = []
 
