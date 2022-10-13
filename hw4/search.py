@@ -5,7 +5,7 @@ from torch import nn
 
 def make_title_list(filename):
     with open(filename, 'r', encoding='utf-8') as f:
-        data = list(f)[:50000]
+        data = list(f)[:10000]
     titles = []
     for doc in data:
         q = json.loads(doc)['question']
