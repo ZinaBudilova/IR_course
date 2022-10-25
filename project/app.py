@@ -1,9 +1,7 @@
 import streamlit as st
 from datetime import datetime
-from funcs import load_all, search
+from funcs import search, matrices, titles, tools
 
-
-titles, matrices, tools = load_all()
 
 st.title('Поисковик по ОтВеТаМ мЭйЛ рУ')
 

@@ -141,3 +141,6 @@ def search(query, method, matrices, titles, tools):
     qu_vec = query_vector(query, method, tools)
     res = calc_similarity(matrix, qu_vec, method, titles)
     return res
+
+
+titles, matrices, tools = load_all()
